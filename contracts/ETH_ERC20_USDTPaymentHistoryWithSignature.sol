@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
-https://etherscan.io/address/0x10189c3abd3a638102b149fd9ffc9b6c7fb42fc9
+// https://etherscan.io/address/0x10189c3abd3a638102b149fd9ffc9b6c7fb42fc9
 
 contract ETHERC20PaymentHistoryWithSignature is Ownable {
     using SafeERC20 for IERC20;
@@ -74,7 +74,7 @@ contract ETHERC20PaymentHistoryWithSignature is Ownable {
         require(recordHistory[recordId] == 0, "Payment record already used");
 
         // Calculate adjusted amount
-        uint256 adjustedAmount = amount * (10**uint256(tokenDecimals));
+        uint256 adjustedAmount = amount * (10 ** uint256(tokenDecimals));
 
         // Balance check
         require(
