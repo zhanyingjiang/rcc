@@ -1,1 +1,13 @@
 .DS_Store
+.states/vm-cancun/state.json
+contracts/artifacts/BEP20Token_metadata.json
+contracts/artifacts/BEP20Token.json
+contracts/artifacts/Context_metadata.json
+contracts/artifacts/Context.json
+contracts/artifacts/IBEP20_metadata.json
+contracts/artifacts/IBEP20.json
+contracts/artifacts/Ownable_metadata.json
+contracts/artifacts/Ownable.json
+contracts/artifacts/SafeMath_metadata.json
+contracts/artifacts/SafeMath.json
+contracts/artifacts/build-info/cb4cdb12ac541f97d44f536d0bbaef95.json
